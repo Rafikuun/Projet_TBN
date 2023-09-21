@@ -1,3 +1,92 @@
-a{
+a
+{
     text-decoration: none;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+}
+
+body
+{
+    height: 100vh;
+    background: #EADBC8;
+    overflow: hidden;
+    min-width: 400px;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5%;
+    color: #0a2f44;
+    font-size: 18px;
+}
+
+header nav
+{
+    display: flex;
+    align-items: center;
+}
+header .menu
+{
+    display: flex;
+    align-items: center;
+}
+header nav .menu li a
+{
+    position: relative;
+    color: #0a2f44;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 40px;
+}
+header nav #toggle
+{
+    font-size: 1.5rem;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.acceuil-introduction
+{
+    padding: 0 5%;
+    color: #0a2f44;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+.acceuil-introduction h1
+{
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-top: -30px;
+}
+.acceuil-introduction p
+{
+    font-size: 0.85rem;
+    font-weight: 300;
+    margin: -10px 0 20px;
+}
+.acceuil-introduction button
+{
+    background: #0a2f44;
+    padding: 0.45rem 2.1rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 2.5rem;
 }
